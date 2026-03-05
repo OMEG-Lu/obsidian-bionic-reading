@@ -2,11 +2,15 @@
 
 An Obsidian plugin that applies a bionic reading effect in **Reading View** -- the first portion of each word is bolded, creating artificial fixation points that help your eyes glide through text faster.
 
-## What it looks like
+## Before & After
 
-> **Th**is **is** **wh**at **yo**ur **no**tes **wi**ll **lo**ok **li**ke **wi**th **bio**nic **rea**ding **ena**bled.
+**Before** -- normal Reading View:
 
-Normal text becomes easier to scan as your brain uses the bolded anchors to predict the rest of each word.
+![Before](assets/before.png)
+
+**After** -- with Bionic Reading enabled:
+
+![After](assets/after.png)
 
 ## Features
 
@@ -25,18 +29,12 @@ Normal text becomes easier to scan as your brain uses the bolded anchors to pred
 
 ## Installation
 
-### From Community Plugins (once approved)
-
-1. Open **Settings > Community plugins**
-2. Search for **Bionic Reading**
-3. Click **Install**, then **Enable**
-
-### Manual Installation
-
-1. Download `main.js`, `manifest.json`, and `styles.css` from the [latest release](https://github.com/yufenglu/obsidian-bionic-reading/releases/latest)
-2. Create a folder at `<your-vault>/.obsidian/plugins/bionic-reading/`
-3. Copy the three files into that folder
-4. Restart Obsidian and enable the plugin in **Settings > Community plugins**
+1. Download `main.js`, `manifest.json`, and `styles.css` from the [latest release](https://github.com/OMEG-Lu/obsidian-bionic-reading/releases/latest)
+2. In your vault, create the folder `.obsidian/plugins/bionic-reading/`
+3. Copy the three downloaded files into that folder
+4. Open Obsidian, go to **Settings > Community plugins**, and turn off **Restricted mode** if it's on
+5. Enable **Bionic Reading** in the plugin list
+6. Open any note in **Reading View** to see the effect
 
 ## Development
 
