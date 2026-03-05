@@ -30,7 +30,7 @@ export class BionicReadingSettingTab extends PluginSettingTab {
 
 		new Setting(containerEl)
 			.setName("Enable bionic reading")
-			.setDesc("Toggle the bionic reading effect in Reading View.")
+			.setDesc("Toggle the bionic reading effect in reading view.")
 			.addToggle((toggle) =>
 				toggle
 					.setValue(this.plugin.settings.enabled)
